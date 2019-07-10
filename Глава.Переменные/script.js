@@ -1,0 +1,2 @@
+planet = 'Земля';
+username = 'Петя';
