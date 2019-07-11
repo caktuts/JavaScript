@@ -30,7 +30,7 @@
 //     if(num>=100) break;
 // }
 
-var i; 
-for(i = 2; i<10 && i>1 && i/i; i++){
-	alert(i)
-}
+// var i; 
+// for(i = 2; i<10 && i>1 && i/i; i++){
+// 	alert(i)
+// }

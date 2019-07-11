@@ -1,36 +1,55 @@
-// var i = 3;
-// while (i) {
-//   alert( i-- );
-// }//Последним будет 1//
-
-// var i = 0;
-// while (++i < 5) alert( i );//Цикл будет начинаться с 1 до 4//
-// var i = 0;
-// while (i++ < 5) alert( i );//Цикл будет начинаться с 1 до 5//
-
-// for (var i = 0; i < 5; i++) alert( i );//Цикл будет начинаться с 0 до 4//
-// for (var i = 0; i < 5; ++i) alert( i );//Цикл будет начинаться с 0 до 4//
-
-// var i
-// for( i= 2; i<=10; i=i+2){
-//  alert(i);   
+// var browser = prompt('Введите название вашего браузера: ','');
+// if(browser=== 'IE'){
+// 	alert( 'О, да у вас IE!' );
+// }else if(browser==='Chrome'){
+// 	alert( 'Да, и эти браузеры мы поддерживаем' );
+// }else if(browser==='Firefox'){
+// 	alert( 'Да, и эти браузеры мы поддерживаем' );
+// }else if(browser==='Safari'){
+// 	alert( 'Да, и эти браузеры мы поддерживаем' );
+// }else if(browser==='Opera'){
+// 	alert( 'Да, и эти браузеры мы поддерживаем' );
+// }else{
+// 	alert( 'Мы надеемся, что и в вашем браузере все ок!' );
 // }
 
 
-// var i = 0
-// while(i < 3){
-//   alert( "номер " + i + "!" );   
-//   i++;
+// var a = +prompt('a?', '');
+
+// switch(a){
+// 	case 0:
+// 	alert( 0 );
+// 	break;
+
+// 	case 1:
+// 	alert( 1 );
+// 	break;
+
+
+// 	case 2 || 3://Не работает,вопрос!!!
+// 	alert( '2,3' );
+// 	break;
+
 // }
-  
 
 
-// while(true){
-//     var num = +prompt('Введите число,больше 100: ','');
-//     if(num>=100) break;
+
+
+
+
+
+
+
+
+// var a = +prompt('a?', '');
+
+// if (a == 0) {
+//   alert( 0 );
+// }
+// if (a == 1) {
+//   alert( 1 );
 // }
 
-var i; 
-for(i = 2; i<10 && i>1 && i/i; i++){
-	alert(i)
-}
+// if (a == 2 || a == 3) {
+//   alert( '2,3' );
+// }
