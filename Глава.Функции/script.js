@@ -27,17 +27,10 @@
 
 // while(true){
 //     var num = +prompt('Введите число,больше 100: ','');
-//     if(num>100) break;
+//     if(num>=100) break;
 // }
 
-// var i;
-// var j;
-// ounce:
-// for(i = 2; i < 10; i = i++){
-
-//    for (var j = 2; j < i; j++) {
-
-//     if (i % j == 0) continue ounce;
-//   }
-// console.log(i);     
+// var i; 
+// for(i = 2; i<10 && i>1 && i/i; i++){
+// 	alert(i)
 // }
