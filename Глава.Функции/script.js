@@ -1,36 +1,24 @@
-// var i = 3;
-// while (i) {
-//   alert( i-- );
-// }//Последним будет 1//
 
-// var i = 0;
-// while (++i < 5) alert( i );//Цикл будет начинаться с 1 до 4//
-// var i = 0;
-// while (i++ < 5) alert( i );//Цикл будет начинаться с 1 до 5//
-
-// for (var i = 0; i < 5; i++) alert( i );//Цикл будет начинаться с 0 до 4//
-// for (var i = 0; i < 5; ++i) alert( i );//Цикл будет начинаться с 0 до 4//
-
-// var i
-// for( i= 2; i<=10; i=i+2){
-//  alert(i);   
+// function min(a,b){
+//     if(a>b){
+//         return a;
+//     }else{
+//         return b;
+//     }
+    
 // }
 
+// alert(min(7,9));
 
-// var i = 0
-// while(i < 3){
-//   alert( "номер " + i + "!" );   
-//   i++;
+
+// function checkAge(age) { (age > 18) ? true : confirm('Родители разрешили?')}
+
+// function checkAge(age) { (age > 18) || confirm('Родители разрешили?')}
+
+
+// function pow(){
+//     var x = prompt('Введите число: ','');
+//     var n = prompt('Введите степень: ','');
+//     n>=1 ? alert(Math.pow(x,n)) : alert('Введите число больше 1');
 // }
-  
-
-
-// while(true){
-//     var num = +prompt('Введите число,больше 100: ','');
-//     if(num>=100) break;
-// }
-
-// var i; 
-// for(i = 2; i<10 && i>1 && i/i; i++){
-// 	alert(i)
-// }
+// pow();
